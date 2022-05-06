@@ -1,0 +1,55 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  min-width: 550px;
+  margin: 0 auto;
+  border: 1px solid #cccabf;
+  padding: 10px;
+  position: relative;
+  background-color: aliceblue;
+  box-shadow: 5px -5px 200px 0px #cccabf;
+}
+
+.label {
+  display: flex;
+  align-items: baseline;
+}
+
+.input {
+  position: relative;
+  padding: 10px 20px;
+  margin-left: auto;
+  width: 60%;
+  margin-bottom: 10px;
+  outline: none;
+}
+.spanPassword {
+  position: absolute;
+  right: 15px;
+  top: 48%;
+  transform: translateY(-10%);
+  cursor: pointer;
+}
+.spanPasswordConf {
+  position: absolute;
+  right: 15px;
+  top: 66%;
+  cursor: pointer;
+}
+
+.inputValid {
+  border: 1px solid green;
+  background-color: #b3f9d6;
+}
+
+.inputInvalid {
+  border: 1px solid silver;
+  background-color: silver;
+}
+.btn {
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', Тahoma, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
